@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmad Febrian Sembiring - Belajar Javascript</title>
+    <link href="assets/favicon-32.png" rel="shortcut icon" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nestedifelse"> 
+      <h1>Contoh NestedIfElse</h1>
+        <form>
+          <label for="nilaiujian">Nilai Ujian:</label>
+          <input type="number" id="nilaiujian" name="nilaiujian" placeholder="Masukan Nilai">
+          <br><br>
+          <label for="kehadiran">Jumlah Kehadiran:</label>
+          <input type="number" id="kehadiran" name="kehadiran" placeholder="Masukan Nilai">
+          <br>
+          <button type="button" onclick="nestedifelse()">Proses</button>
+        </form>
+      <p id="hasil-nestedifelse"></p>
+
+      <h1>Contoh Switch</h1>
+      <form>
+        <form id="myForm">
+          <label for="pilihan">Pilih opsi berdasarkan nomor :</label>
+          <select id="pilihan" name="pilihan">
+              <option value="pilihan1">Pilihan 1</option>
+              <option value="pilihan2">Pilihan 2</option>
+              <option value="pilihan3">Pilihan 3</option>
+          </select>
+          <br>
+          <button type="button" onclick="switchs()">Proses</button>
+      </form>
+      <p id="hasil-switch"></p>
+
+      <h1>Contoh For Statement</h1>
+      <form>
+        <label for="jumlahPerulangan">Jumlah Perulangan:</label>
+        <input type="number" id="jumlahPerulangan" name="jumlahPerulangan" placeholder="Masukan Nilai">
+        <br>
+        <button type="button" onclick="forStatement()">Proses</button>
+      </form>
+    <p id="hasil-for"></p>
+  
+    <h1>Contoh Do While</h1>
+    <form id="inputForm">
+        <label for="jumlahpercobaan">Jumlah Percobaan:</label>
+        <input type="number" id="jumlahpercobaan" name="jumlahpercobaan" placeholder="Masukan Nilai">
+        <br>
+        <button type="button" onclick="jalankanPerulangan()">Proses</button>
+    </form>
+    <p id="hasil-dowhile"></p>
+    </div>
+  
+    <script src="index.js"></script>
+  </body>
+</html>
